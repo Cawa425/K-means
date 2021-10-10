@@ -113,8 +113,6 @@ if __name__ == "__main__":
 
     points = initPoints(points_Count)
     centroids = initCentroids(points, clusterCount)
-    fig = plt.figure()
-
 
     for i in range(maxIterationCount):
 
@@ -132,7 +130,3 @@ if __name__ == "__main__":
         plt.draw()
         plt.pause(.001)
 plt.show()
-
-
-
-
